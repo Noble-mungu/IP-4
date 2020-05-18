@@ -1,0 +1,14 @@
+}
+#about-us{
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+#about-us .content{
+  padding: 40px 50px 70px;
+  max-width: 100%;
+  background-color: red;
+}
+.d-flex{
+  display: flex !important;
+}
