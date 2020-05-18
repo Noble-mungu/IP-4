@@ -12,3 +12,26 @@
 .d-flex{
   display: flex !important;
 }
+#overlay{
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /* overflow-x: hidden; */
+}
+#head{
+  padding-top: 10%;
+}
+nav .navbar{
+  width: 99%;
+  padding-right: 0px;
+}
+.navbar-brand{
+  margin-right: 30%;
+  font-weight:800;
+}
+.nav-item a{
+  /* padding-right: 50px; */
+  font-size: 20px;
+  font-weight: 700;
+}
