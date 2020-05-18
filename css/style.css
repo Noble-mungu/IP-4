@@ -7,8 +7,40 @@
 #about-us .content{
   padding: 40px 50px 70px;
   max-width: 100%;
-  background-color: orange;
+  background-color: grey;
 }
 .d-flex{
   display: flex !important;
-} 
+}
+.landing{
+  background-image: url("../images/pizza.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  padding-bottom: 20px;
+  position: relative;
+  overflow-x: hidden;
+}
+.text a{
+  font-size: 20px;
+  font-weight: 700;
+}
+.text h5{
+  font-size: 25px;
+  padding: 30px;
+}
+.button{
+  border-radius: 10px;
+}
+.card-title{
+  text-align: center;
+  color: green;
+  font-weight: 800;
+}
+.controls-top h2{
+  color: rgb(5, 172, 5);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
