@@ -177,6 +177,6 @@ $(document).ready(function(){
         $("button#final-order").show();
       }
     });
-   event.preventDefault();
+   
   });
 });
