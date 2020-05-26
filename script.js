@@ -15,6 +15,7 @@ $(document).ready(function(){
 //    $("div.choise").slideDown(1000);
 //});
   $("button.proceed").click(function(event){
+    event.preventDefault()
    let pname = $(".name option:selected").val();
    let psize = $("#size option:selected").val();
    let pcrust = $("#crust option:selected").val();
@@ -168,7 +169,7 @@ $(document).ready(function(){
 
     // when one clicks place order button
     $("button#final-order").click(function(event){
-
+event.preventDefault()
       $("#pizzatotal").hide();
       $(".delivery").hide();
       $("button#final-order").hide();
