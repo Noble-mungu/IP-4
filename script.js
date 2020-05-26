@@ -9,7 +9,11 @@ function Getpizza( name,size,crust,topping, total ){
 }
 
 $(document).ready(function(){
-
+  //$("button.proceed").click(function(){
+//    $("button.proceed").hide();
+//    $("#information").hide();
+//    $("div.choise").slideDown(1000);
+//});
   $("button.proceed").click(function(event){
    let pname = $(".name option:selected").val();
    let psize = $("#size option:selected").val();
